@@ -44,7 +44,10 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => {
-                  alert("Coming soon...");
+                  const link = document.createElement("a");
+                  link.href = "/resume.pdf";
+                  link.download = "cv.pdf";
+                  link.click();
                 }}
                 className="cursor-pointer bg-blue-600 text-white px-6 sm:px-8 py-3 text-sm font-medium hover:bg-blue-700 transition-all hover:shadow-lg transform hover:-translate-y-0.5 flex items-center justify-center gap-2"
               >
