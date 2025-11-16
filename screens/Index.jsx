@@ -6,6 +6,9 @@ import ProjectsSection from "../components/ProjectSection";
 import SkillsSection from "../components/SkillsSection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
+import AnimatedSlider from "../components/AnimatedSlider";
+import AISkill from "../components/AISkill";
+
 
 // Main App
 export default function Index() {
@@ -47,6 +50,8 @@ export default function Index() {
       <ExperienceSection />
       <ProjectsSection />
       <SkillsSection />
+      <AnimatedSlider/>
+      <AISkill/>
       <ContactSection />
       <Footer />
     </div>
