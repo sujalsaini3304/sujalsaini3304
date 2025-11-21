@@ -9,6 +9,9 @@ Designed with a clean UI and optimized performance, it reflects my journey as a 
 ## 🌐 Live Portfolio Link
 
 🔗 **Visit here:** https://sujalsaini3304.netlify.app/
+
+🔗 **Download cv here:** https://sujalsaini3304.blob.core.windows.net/sujalsaini3304-blob-container/sujalkumarsaini_cv.pdf
+
 ---
 
 ## 📌 Features
@@ -35,3 +38,4 @@ Designed with a clean UI and optimized performance, it reflects my journey as a 
 - Docker, Git & GitHub, Azure App Service, Postman, VS Code, Kubernetes
 
 ---
+
