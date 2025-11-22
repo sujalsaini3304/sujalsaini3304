@@ -8,6 +8,8 @@ import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 import AnimatedSlider from "../components/AnimatedSlider";
 import AISkill from "../components/AISkill";
+import CertificatesGrid from "../components/CertificateSection";
+import CertificatesSection from "../components/CertificateSection";
 
 
 // Main App
@@ -49,6 +51,7 @@ export default function Index() {
       <AboutSection />
       <ExperienceSection />
       <ProjectsSection />
+      <CertificatesSection/>
       <SkillsSection />
       <AnimatedSlider/>
       <AISkill/>
