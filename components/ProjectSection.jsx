@@ -31,7 +31,7 @@ const ProjectsSection = () => {
       ],
       technologies: [
         "React Native CLI",
-        "Javascript",
+        "JavaScript",
         "Node.js",
         "MongoDB",
         "Cloudinary",
@@ -49,6 +49,59 @@ const ProjectsSection = () => {
       ],
       image_url: "cloudee.png",
       image_alt: "cloudee_image",
+    },
+    {
+      title: "Aithor",
+      category: "React Native CLI Android Application",
+      description: [
+        `Engineered Aithor, an AI-enabled Android application leveraging the Qwen LLM through OpenRouter to deliver precise, concise text summaries and enhance user understanding.`,
+        `Implemented the UI with React Native CLI and React Native Paper,   improving overall app performance and raising user engagement by 15%.`
+      ],
+      technologies: [
+        "React Native CLI",
+        "JavaScript",
+        "Render",
+        "FastAPI",
+        "Python",
+        "Docker",
+      ],
+      metrics: [
+        "Android app",
+        "Backend on Render",
+        "99.9% Uptime",
+        "Summarizes the text",
+      ],
+      image_url: "aithor.png",
+      image_alt: "aithor_image",
+    },
+    {
+      title: "SafeNews AI",
+      category: "React and TailwindCSS Application",
+      description: [
+        `Designed and deployed a RAG-based FastAPI backend integrated with 
+DuckDuckGo search for real-time fact retrieval and claim analysis, and 
+built a React.js + Tailwind CSS frontend to deliver a fast and seamless 
+user experience.`,
+        `Dockerized the FastAPI backend and configured it to serve the React.js 
+and Tailwind CSS frontend, then deployed the full stack on Render for 
+scalable performance and accurate fact-analysis processing.`
+      ],
+      technologies: [
+        "React.js",
+        "JavaScript",
+        "Render",
+        "FastAPI",
+        "Python",
+        "Docker",
+      ],
+      metrics: [
+        "Web app",
+        "Backend on Render",
+        "99.9% Uptime",
+        "News Authenticity Checker",
+      ],
+      image_url: "safenews_ai.png",
+      image_alt: "safenews_ai_image",
     },
   ];
 
